@@ -3,8 +3,6 @@
 ## Giới thiệu
 Cơ sở dữ liệu `QuanLyVanTai` được thiết kế để quản lý vận tải, tập trung vào xe bus (loại "Chở khách"). Hệ thống sử dụng SQL Server và bao gồm các bảng, view, stored procedure, function, trigger và index để quản lý thông tin về thành phố, chi nhánh, xe bus, tài xế và lịch phân công.
 
-**Ngày hiện tại trong tài liệu:** 17/03/2025.
-
 ---
 
 ## Cấu trúc cơ sở dữ liệu
@@ -60,7 +58,7 @@ Cơ sở dữ liệu `QuanLyVanTai` được thiết kế để quản lý vận
 - **Trigger**: 5 trigger đảm bảo tính toàn vẹn (kiểm tra số điện thoại, log cập nhật tài xế, v.v.).
 - **Index**: 10 index tối ưu hóa truy vấn trên các cột thường dùng.
 
-Chi tiết các thành phần nằm trong file `QuanLyVanTai.sql`.
+Chi tiết các thành phần nằm trong file `Database.sql`.
 
 ---
 
@@ -72,7 +70,7 @@ Dữ liệu mẫu đã được nhập với các đặc điểm:
 - **TaiXe**: 6 tài xế.
 - **PhanCong**: 7 lịch phân công từ 15/03/2025 đến 17/03/2025.
 
-Xem file `QuanLyVanTai.sql` để biết chi tiết dữ liệu mẫu.
+Xem file `Sample Data.sql` để biết chi tiết dữ liệu mẫu.
 
 ---
 
